@@ -1,0 +1,71 @@
+.carrito-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f1f1f1;
+}
+
+td img.img-carrito {
+    width: 80px;
+    /* Ajusta según lo necesario */
+    height: auto;
+    /* Mantiene proporción */
+    display: block;
+    margin: 0 auto;
+}
+
+td:first-child {
+    width: 120px;
+    /* Espacio reservado para la imagen y el texto */
+    text-align: left;
+    /* Alinear texto junto a la imagen */
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+.carrito-container .container-button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.carrito-container .container-button a .go-to-checkout {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

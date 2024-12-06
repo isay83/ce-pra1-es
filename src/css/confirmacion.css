@@ -1,0 +1,81 @@
+/* Contenedor principal de la confirmación */
+.confirmacion-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.confirmacion-container h1,
+.confirmacion-container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Datos del usuario */
+.confirmacion-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.confirmacion-container p strong {
+    font-weight: bold;
+}
+
+/* Tabla de productos */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+}
+
+table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Resumen total */
+.confirmacion-container .total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    text-align: right;
+}
+
+.confirmacion-container .estado {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+/* Estilo para la tabla de productos */
+table td img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
